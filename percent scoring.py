@@ -9,11 +9,11 @@ def percentscore(score1, score2, score3):
 while True:
     try:
         name = input("What is your name? ")
-        hwscore = float(input("What is your homework score? "))
+        hwscore = float(input("What is your homework score out of 25? "))
         if hwscore <= 25 and hwscore >=0:
-            assessscore =  float(input("What is your assessment score? "))
+            assessscore =  float(input("What is your assessment score out of 50? "))
             if assessscore <= 50 and assessscore >=0:
-                finexamscore = float(input("What is your final exam score? "))
+                finexamscore = float(input("What is your final exam score out of 100? "))
                 if finexamscore <= 100 and finexamscore >=0:
                     break
                 else:
